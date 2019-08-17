@@ -16,7 +16,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\BaseCards\BaseCards.csproj" />
+      <ProjectReference Include="..\..\src\BaseCards\BaseCards.csproj" />
     </ItemGroup>
 
     <ItemGroup>
