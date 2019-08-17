@@ -58,7 +58,7 @@ namespace BaseCards.Cards.Comparers
 
         private int CompareRank(Card x, Card y)
         {
-            if (x.Suit.Equals(_trumpSuit) || y.Suit.Equals(_trumpSuit))
+            if (GetCardSuit(x).Equals(_trumpSuit) || GetCardSuit(y).Equals(_trumpSuit))
             {
                 if (_rankAscending)
                 {
@@ -103,11 +103,7 @@ namespace BaseCards.Cards.Comparers
                 return 2;
             }
 
-            if (card.Rank.AsEnum() == RankEnum.Nine)
-            {
-                return 1;
-            }
-            return 0;
+            return 1;
         }
     }
 }

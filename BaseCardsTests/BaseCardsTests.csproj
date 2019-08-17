@@ -19,4 +19,21 @@
       <ProjectReference Include="..\BaseCards\BaseCards.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="TestResults\c4c1dd98-7767-4e9a-9081-46fc273d3b8f" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="bin\Debug\netcoreapp2.2\BaseCards.dll" />
+      <Content Include="bin\Debug\netcoreapp2.2\BaseCards.pdb" />
+      <Content Include="bin\Debug\netcoreapp2.2\BaseCardsTests.deps.json" />
+      <Content Include="bin\Debug\netcoreapp2.2\BaseCardsTests.dll" />
+      <Content Include="bin\Debug\netcoreapp2.2\BaseCardsTests.pdb" />
+      <Content Include="bin\Debug\netcoreapp2.2\BaseCardsTests.runtimeconfig.dev.json" />
+      <Content Include="bin\Debug\netcoreapp2.2\BaseCardsTests.runtimeconfig.json" />
+      <Content Include="bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll" />
+      <Content Include="bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll" />
+      <Content Include="bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll" />
+    </ItemGroup>
+
 </Project>
