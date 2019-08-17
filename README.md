@@ -1,1 +1,1 @@
-[![Build Status](https://travis-ci.org/joe-meyer/dotnet-cards.svg?branch=develop)](https://travis-ci.org/joe-meyer/dotnet-cards)
+[![Build Status](https://travis-ci.org/joe-meyer/dotnet-cards.svg?branch=master)](https://travis-ci.org/joe-meyer/dotnet-cards)
